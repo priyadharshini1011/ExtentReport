@@ -9,6 +9,9 @@ public class ExtReport {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/*
+		 * changes for git
+		 */
 		SimpleDateFormat simpledateformatter = new SimpleDateFormat("'sampledemo_'yyyyMMddHHmm'.html'");
 		Date currentDate =new Date();
 		String filename = simpledateformatter.format(currentDate);
